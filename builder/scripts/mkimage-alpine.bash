@@ -71,7 +71,7 @@ main() {
 			c) ADD_APK_SCRIPT=1;;
 			p) PACKAGES="$OPTARG";;
 			b) ADD_BASELAYOUT=1;;
-			d) DISABLE_ROOT_PASSWD=1;;
+			d) DISABLE_ROOT_PASSWD=0;;
 			*) usage;;
 		esac
 	done
